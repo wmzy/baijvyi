@@ -12,7 +12,7 @@ pids
 lib-cov
 
 # Coverage directory used by tools like istanbul
-coverage
+app/tests/coverage/
 
 # Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
 .grunt
@@ -24,6 +24,8 @@ coverage
 build/Release
 
 # Dependency directory
+# Commenting this out is preferred by some people, see
+# https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git-
 node_modules
 
 # Optional npm cache directory
@@ -31,3 +33,13 @@ node_modules
 
 # Optional REPL history
 .node_repl_history
+
+# IDE
+.idea
+
+.DS_Store
+
+.nodemonignore
+.sass-cache/
+.bower-*/
+.avoscloud/
